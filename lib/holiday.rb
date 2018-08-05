@@ -62,7 +62,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].values.each do |values|
-    values.to_s
+   
     binding.pry
   end
   
