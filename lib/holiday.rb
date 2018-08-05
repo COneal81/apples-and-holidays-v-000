@@ -72,7 +72,7 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   return holiday_hash[:winter][:summer][:fall][:spring].keys.values
-      binding.pry
+      # binding.pry
   
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
