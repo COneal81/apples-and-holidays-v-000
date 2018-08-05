@@ -72,8 +72,8 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
    holiday_hash[:winter][:summer][:fall][:spring].each do |holiday, supplies|
-     puts "#{holiday_hash}"
-      # binding.pry
+      "#{holiday_hash}"
+      
   end
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
